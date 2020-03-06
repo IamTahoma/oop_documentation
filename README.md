@@ -25,3 +25,24 @@ subroutine defined in a class, for its construction.
             this.color
         });
     }
+
+### Heredity
+Lets inherit objects that already exist for reuse.
+
+    Class Build extends Cube {
+        //heredity
+        List cubesForConstruction = [
+            Cube(
+                name: 'Granite',
+                color: 'green'
+            ),
+            Cube(
+                name: 'Iron',
+                color: 'gray'
+            ),
+        ];
+        
+        Build buildHouse(List cubesForConstruction){
+            "....."
+        };
+    }
