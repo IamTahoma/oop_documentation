@@ -69,11 +69,11 @@ It is used to define which functions or methods are private or public. Attribute
         
         //Method or Function Public
         Build buildHouse(List cubesForConstruction){
-            String copyKey = _getkeyfromHouse();
+            String copyKeys = _getkeyfromHouse();
             "......."
         };
         //Method or Function Private
         String _getKeyFromHouse(){
-            return _key;
+            return _keys;
         }
     }
